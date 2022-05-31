@@ -1,0 +1,9 @@
+apiVersion: "juraj.io/v1"
+kind: Scale
+metadata:
+  name: scale1
+spec:
+  appId: 123
+  flag: low
+  label: test
+  replicas: 2
